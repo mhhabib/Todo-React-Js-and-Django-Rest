@@ -1,0 +1,70 @@
+
+body{
+  background: #136a8a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+strike {
+  font-family: 'Montserrat', sans-serif;
+
+}
+#form h3{
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+#task-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#form-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rem;
+  border-bottom: 1px solid #c9c8c8;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+}
+
+#submit {
+  background-color: #02886b;
+  border-radius: 0;
+  border: 0;
+  color: #fff;
+}
+
+.flex-wrapper {
+  display: flex;
+}
+
+.task-wrapper {
+  cursor: pointer;
+  border-bottom: 1px solid #c9c8c8;
+  color: #686868;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  margin: 5px;
+  padding: 20px;
+}
+
+.task-wrapper:hover {
+  background-color: #F0F0F0;
+}
+#list-wrapper{
+  max-height: 340px;
+  overflow-y: scroll;
+}
